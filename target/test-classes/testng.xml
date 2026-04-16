@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="REST Assured Learning Suite" parallel="false" verbose="2">
+
+    <test name="GET Requests">
+        <classes>
+            <class name="tests.GetRequestsTest"/>
+        </classes>
+    </test>
+
+    <test name="Write Operations">
+        <classes>
+            <class name="tests.WriteOperationsTest"/>
+        </classes>
+    </test>
+
+    <test name="Authentication">
+        <classes>
+            <class name="tests.AuthenticationTest"/>
+        </classes>
+    </test>
+
+    <test name="Advanced Assertions">
+        <classes>
+            <class name="tests.AdvancedAssertionsTest"/>
+        </classes>
+    </test>
+
+</suite>
